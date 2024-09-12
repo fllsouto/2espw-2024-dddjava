@@ -3,7 +3,11 @@ Material didático utilizado no curso de "Domain-driven-design com Java" para a 
 
 ## Árvore de Projetos
 
-1. [libuncleotido](libuncletidio/PROBLEM.md)
+1. [libuncleotido](libuncleotidio/PROBLEM.md)
+
+## Tutoriais
+
+- https://stackoverflow.com/questions/9689793/cant-execute-jar-file-no-main-manifest-attribute
 
 ### Fazendo Fork do projeto
 
