@@ -3,7 +3,7 @@ package br.com.fiap.twoespw.libuncleotidio;
 public class NucleotidioCounter {
     
     public void count(String entrada) {
-        System.out.println(":: Lib Uncle Otidio ::");
+        System.out.println("\n\n\n:: Lib Uncle Otidio ::");
 
         int frequenciaA = 0;
         int frequenciaC = 0;
@@ -40,5 +40,6 @@ public class NucleotidioCounter {
         System.out.println("Total de C :: " + frequenciaC);
         System.out.println("Total de T :: " + frequenciaT);
         System.out.println("Total de G :: " + frequenciaG);
+        System.out.println("\n\n\n");
     }
 }
