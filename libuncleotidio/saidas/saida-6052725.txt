@@ -1,0 +1,7 @@
+Sequence ACTGACTGACTG
+Sequence Size: 12
+A: 3
+C: 3
+T: 3
+G: 3
+

@@ -1,0 +1,27 @@
+Sequence ACTG
+Sequence Size: 4
+A: 1
+C: 1
+T: 1
+G: 1
+
+Sequence AAAA
+Sequence Size: 4
+A: 1
+C: 0
+T: 0
+G: 0
+
+Sequence ACTG
+Sequence Size: 4
+A: 1
+C: 1
+T: 1
+G: 1
+
+Sequence ACTG
+Sequence Size: 4
+A: 1
+C: 1
+T: 1
+G: 1
