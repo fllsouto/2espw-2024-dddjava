@@ -1,5 +1,11 @@
 package br.com.fiap.twoespw.libuncleotidio;
 
+import java.util.List;
+import java.util.Random;
+
+import br.com.fiap.twoespw.libuncleotidio.input.NucleotidioInputReader;
+import br.com.fiap.twoespw.libuncleotidio.output.NucleotidioOutputWriter;
+
 /**
  * Hello world!
  *
@@ -8,25 +14,29 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println(":: Lib Uncle Otidio ::");
-        String entrada = "ACGTACGTAAAAAAAAAAAAAAAAAAAAA";
+        Random randomGenerator = new Random();
+        int variavelRandomica =  Math.abs(randomGenerator.nextInt());
 
-        int frequenciaA = 0;
+        // Desafio: Colocar a DATA e HORA da execução em vez de um inteiro randômico
 
-        String[] entradaSplitada = entrada.split("");
-        
-        for(int i = 0; i <= entradaSplitada.length - 1; i++) {
-            System.out.println("[i] = [" + i + "]");
-            String caracter = entradaSplitada[i];
-            System.out.println("caracter: " + caracter);
+        //String entrada = "ACTGACTGACTGACTG";
+        String inputFilename = "entradas/entrada1.txt";
+        String outputFilename = "saidas/saida-" + variavelRandomica + ".txt";
+        NucleotidioCounter nc = new NucleotidioCounter();
+        NucleotidioInputReader nir = new NucleotidioInputReader();
+        NucleotidioOutputWriter now = new NucleotidioOutputWriter();
 
-            if (caracter.equals("A")) {
-                frequenciaA = frequenciaA + 1; 
-            }
-        }
+        //List<String> lines = nir.readWithFileInputStream(filename);
+        List<String> lines = nir.readWithScanner(inputFilename);
 
-        System.out.println("Sequência :: " + entrada);
-        System.out.println("Tamanho da Sequência :: " + entrada.length());
-        System.out.println("Total de A :: " + frequenciaA);
+        // Enhanced For: https://www.programiz.com/java-programming/enhanced-for-loop
+        // for (String line : lines) {
+        //     nc.count(line);
+        // }
+        String line = nir.readFromKeyboard();
+        String output = nc.count(line);
+
+        //now.writeWithFileOutputStream(outputFilename, output);
+        now.writeWithPrintStream(outputFilename, output);
     }
 }

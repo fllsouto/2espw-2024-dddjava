@@ -1,0 +1,7 @@
+Sequence ACACACACACA
+Sequence Size: 11
+A: 6
+C: 5
+T: 0
+G: 0
+

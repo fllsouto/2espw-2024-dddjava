@@ -1,0 +1,10 @@
+total 32
+drwxrwxr-x 5 fllsouto fllsouto 4096 Sep 18 22:18 .
+drwxrwxr-x 4 fllsouto fllsouto 4096 Sep 17 20:25 ..
+-rw-rw-r-- 1 fllsouto fllsouto  146 Sep 17 20:25 Makefile
+-rw-rw-r-- 1 fllsouto fllsouto 3221 Sep 17 20:25 PROBLEM.md
+drwxrwxr-x 2 fllsouto fllsouto 4096 Sep 17 22:26 entradas
+-rw-rw-r-- 1 fllsouto fllsouto    0 Sep 18 22:18 output.txt
+-rw-rw-r-- 1 fllsouto fllsouto 1210 Sep 17 20:25 pom.xml
+drwxrwxr-x 4 fllsouto fllsouto 4096 Sep 17 20:25 src
+drwxrwxr-x 9 fllsouto fllsouto 4096 Sep 18 22:15 target
