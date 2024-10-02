@@ -1,4 +1,4 @@
-package br.com.fiap.twoespwx.libunclesampler.service;
+package br.com.fiap.twoespwx.libunclesampler.libunclesampler.service;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.fiap.twoespwx.libunclesampler.libunclesampler.model.Discoverer;
-import br.com.fiap.twoespwx.libunclesampler.repository.DiscovererRepository;
+import br.com.fiap.twoespwx.libunclesampler.libunclesampler.repository.DiscovererRepository;
 
 @Service
 public class DiscovererService {

@@ -1,4 +1,4 @@
-package br.com.fiap.twoespwx.libunclesampler.repository;
+package br.com.fiap.twoespwx.libunclesampler.libunclesampler.repository;
 
 import java.util.List;
 

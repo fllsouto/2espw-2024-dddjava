@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fiap.twoespwx.libunclesampler.libunclesampler.model.Discoverer;
-import br.com.fiap.twoespwx.libunclesampler.service.DiscovererService;
+import br.com.fiap.twoespwx.libunclesampler.libunclesampler.service.DiscovererService;
 
 @RestController
 @RequestMapping("/discoverer")
