@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "fullName": "Carl Linnaeus",
+        "birthDate": "1707-05-23",
+        "deathDate": "1778-01-10",
+        "nationality": "Swedish",
+        "fieldOfStudy": "Taxonomy",
+        "discoveries": [
+          "Binomial Nomenclature",
+          "Classification of Species"
+        ],
+        "publications": [
+          "Systema Naturae",
+          "Species Plantarum"
+        ],
+        "biography": "Carl Linnaeus was a Swedish botanist, zoologist, and physician who formalized binomial nomenclature, the modern system of naming organisms.",
+        "knownFor": "Creating the system of binomial nomenclature",
+        "geoJsonExplorationAreas": "{ \"type\": \"Polygon\", \"coordinates\": [[[16.0, 58.5], [16.5, 58.5], [16.5, 59.0], [16.0, 59.0], [16.0, 58.5]]] }",
+        "isAlive": false
+      },
+      {
+        "id": 7,
+        "fullName": "Jean-Henri Fabre",
+        "birthDate": "1823-12-22",
+        "deathDate": "1915-10-11",
+        "nationality": "French",
+        "fieldOfStudy": "Entomology",
+        "discoveries": [
+          "Behavioral observations of insects",
+          "Studies on the life cycles of beetles and bees"
+        ],
+        "publications": [
+          "Souvenirs Entomologiques",
+          "The Life of the Fly"
+        ],
+        "biography": "Jean-Henri Fabre was a French entomologist and author known for his detailed observations and writings on the behavior of insects, particularly beetles, bees, and wasps.",
+        "knownFor": "Detailed studies on insect behavior",
+        "geoJsonExplorationAreas": "{ \"type\": \"Polygon\", \"coordinates\": [[[4.83, 43.95], [4.82, 43.94], [4.83, 43.96], [4.83, 43.95]]] }",
+        "isAlive": false
+      },
+      {
+        "id": 8,
+        "fullName": "Karl von Frisch",
+        "birthDate": "1886-11-20",
+        "deathDate": "1982-06-12",
+        "nationality": "Austrian",
+        "fieldOfStudy": "Zoology, Entomology",
+        "discoveries": [
+          "Waggle dance of honeybees",
+          "Color vision in bees"
+        ],
+        "publications": [
+          "The Dance Language and Orientation of Bees",
+          "Bees: Their Vision, Chemical Senses, and Language"
+        ],
+        "biography": "Karl von Frisch was an Austrian zoologist and entomologist who made significant discoveries in the field of bee communication, particularly the waggle dance, and color vision in insects.",
+        "knownFor": "Discovery of the waggle dance in honeybees",
+        "geoJsonExplorationAreas": "{ \"type\": \"Point\", \"coordinates\": [11.58, 48.13] }",
+        "isAlive": false
+      },
+      {
+        "id": 9,
+        "fullName": "William Kirby",
+        "birthDate": "1759-09-19",
+        "deathDate": "1850-07-04",
+        "nationality": "British",
+        "fieldOfStudy": "Entomology",
+        "discoveries": [
+          "Founding father of entomology",
+          "Taxonomic classification of insects"
+        ],
+        "publications": [
+          "Introduction to Entomology",
+          "Monograph on the Apidae"
+        ],
+        "biography": "William Kirby is considered one of the founding fathers of entomology, known for his work in insect taxonomy and classification, and his extensive studies on British insects.",
+        "knownFor": "Founding entomology as a scientific discipline",
+        "geoJsonExplorationAreas": "{ \"type\": \"Polygon\", \"coordinates\": [[[0.12, 52.21], [0.13, 52.22], [0.11, 52.23], [0.12, 52.21]]] }",
+        "isAlive": false
+      },
+      {
+        "id": 10,
+        "fullName": "Émile Blanchard",
+        "birthDate": "1819-03-06",
+        "deathDate": "1900-02-11",
+        "nationality": "French",
+        "fieldOfStudy": "Entomology",
+        "discoveries": [
+          "Insect morphology and taxonomy",
+          "Contributions to comparative anatomy"
+        ],
+        "publications": [
+          "Histoire Naturelle des Insectes",
+          "Anatomie Comparée des Insectes"
+        ],
+        "biography": "Émile Blanchard was a French entomologist known for his work in insect morphology and taxonomy, as well as his contributions to comparative anatomy across species.",
+        "knownFor": "Insect morphology and comparative anatomy",
+        "geoJsonExplorationAreas": "{ \"type\": \"Polygon\", \"coordinates\": [[[2.35, 48.85], [2.36, 48.86], [2.34, 48.87], [2.35, 48.85]]] }",
+        "isAlive": false
+      },
+      {
+        "id": 11,
+        "fullName": "Frederick William Hope",
+        "birthDate": "1797-01-03",
+        "deathDate": "1862-04-15",
+        "nationality": "British",
+        "fieldOfStudy": "Entomology, Archaeology",
+        "discoveries": [
+          "Extensive insect collections",
+          "Founder of the Hope Entomological Collections at Oxford"
+        ],
+        "publications": [
+          "A Catalogue of Hemiptera",
+          "Monograph on the Coleoptera of the British Isles"
+        ],
+        "biography": "Frederick William Hope was a British entomologist and founder of the Hope Entomological Collections at Oxford University, known for his vast insect collections and studies in entomology.",
+        "knownFor": "Founding one of the largest entomological collections",
+        "geoJsonExplorationAreas": "{ \"type\": \"Polygon\", \"coordinates\": [[[1.25, 51.75], [1.26, 51.76], [1.24, 51.77], [1.25, 51.75]]] }",
+        "isAlive": false
+      }
+]

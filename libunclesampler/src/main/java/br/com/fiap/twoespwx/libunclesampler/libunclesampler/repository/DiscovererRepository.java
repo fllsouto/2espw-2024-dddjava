@@ -9,4 +9,6 @@ import br.com.fiap.twoespwx.libunclesampler.libunclesampler.model.Discoverer;
 public interface DiscovererRepository extends Repository<Discoverer, Long> {
     
     List<Discoverer> findAll();
+
+    Discoverer save(Discoverer discoverer);
 }

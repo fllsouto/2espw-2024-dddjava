@@ -4,11 +4,15 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.fiap.twoespwx.libunclesampler.libunclesampler.controller.input.DiscovererFormInput;
 import br.com.fiap.twoespwx.libunclesampler.libunclesampler.model.Discoverer;
 import br.com.fiap.twoespwx.libunclesampler.libunclesampler.service.DiscovererService;
+
 
 @RestController
 @RequestMapping("/discoverer")
@@ -25,4 +29,11 @@ public class DiscovererController {
     public List<Discoverer> getAll() {
         return this.discovererService.findAll();
     }
+
+    @PostMapping(path = "/create")
+    public Discoverer create(@RequestBody DiscovererFormInput input) {
+        Discoverer newDiscoverer = discovererService.create(input);
+        return newDiscoverer;
+    }
+    
 }
